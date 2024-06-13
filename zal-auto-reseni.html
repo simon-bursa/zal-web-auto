@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web s Menu</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        .dropdown-item:hover { background-color: blue; }
+        .dropdown-menu { transform: translateX(-80%); }
+		.container .row .col-md-6 { padding: 10px; /* Přidává padding kolem každého obrázku */ }
+        img.img-fluid { width: 100%; /* Zajistí, že obrázky jsou plně responzivní */
+		height: auto; /* Udržuje původní poměr stran obrázků */  }
+    </style>
+<body class="bg-dark text-white">
+    <div id="navbar"></div> <!-- Prázdný div pro menu -->
+
+    <!-- Obsah stránky -->
+	
+    <main>
+        <article>
+            <section>
+                <h1>ZAL AUTO - ŘEŠENÍ</h1>
+            </section>
+            <section>
+                <h2>Řešení pro citlivost řízení</h2>
+                <p>Stačoůp vytvořit program pro pomalou jízdu a přesné ovládání, toť vše.</p>
+            </section>
+            <section>
+                <h2>Řešení pro hromadné závody</h2>
+                <p>Samozřejmě co nejlepší kód, aby se autíčko ovládalo co nejjednodušeji.</p>
+                <p>Před závodem se určovalo pořadí podle toho, kolikátý jste skončili v rozjezdech.</p>
+                <p>Jestli jste byli vepředu, tak stačilo projet rampou a pak už v ničem nebyl problém.</p>
+            </section>
+            <section>
+                <h2>Řešení pro autonomní jízdu</h2>
+                <p>Jelikož autíčko obsahuje tři color senzory rozložené ve tvaru trojúhelníku, tak nebylo těžké najít trať. Trať se </p>
+                <ol>
+                    <li>Když je čára zazmanemána předním (prostředním) senzorem, může jet auto na plný výkon.</li>
+                    <li>Když je čára mimo senzor, ale stále se nachází někde v tom trojúhelníku, tak zpomalit.</li>
+                    <li>Když je čára detekována postranním senzorem, tak zatočit.</li>
+                </ol>
+                <p>Jednoduché.</p>
+            </section>
+        </article>
+    </main>
+
+    
+
+    <!-- Konec obsahu stránky -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="menu.js"></script> <!-- Vložení JavaScriptu pro menu -->
+</body>
+</html>
